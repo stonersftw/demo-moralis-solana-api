@@ -7,7 +7,6 @@ function App() {
   // get devnet SPL NFT balance for a given address
   const options = {
     network: "mainnet",
-    address: "BFmgdhTUY2yoJPgUZ7cJXc2eC4RrN35UVArHL4wZk39g",
   };
   const { fetch: getSolanaPortfolio, data } = useMoralisSolanaCall(
     account.getPortfolio,

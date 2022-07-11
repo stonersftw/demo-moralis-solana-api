@@ -30,7 +30,7 @@ function App() {
       <h1>Stoners Pre-Roll</h1>
       <Button
         text="Roll Up"
-        color="#00A7B8"
+        color="#FFAA39"
         type="button"
         size="large"
         onClick={getSolanaPortfolio}

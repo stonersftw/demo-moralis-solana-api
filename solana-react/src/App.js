@@ -25,13 +25,12 @@ function App() {
         width: "100vw",
         flexDirection: "column",
         gap: "2",
-        color: "#00A7B8",
       }}
     >
       <h1>Stoners Pre-Roll</h1>
       <Button
         text="Roll Up"
-        theme="secondary"
+        color="#00A7B8"
         type="button"
         size="large"
         onClick={getSolanaPortfolio}
